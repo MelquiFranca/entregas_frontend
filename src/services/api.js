@@ -1,10 +1,7 @@
 import axios from 'axios';
-axios.defaults.headers.common = {
-    'X-Requested-With': 'XMLHttpRequest',
-    'X-CSRF-TOKEN': window.csrf_token
-};
+
 const api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'http://ec2-54-163-234-44.compute-1.amazonaws.com:5432',
 });
 
 export default api;
