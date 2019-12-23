@@ -1,0 +1,35 @@
+.container .painel {
+    flex: 8;    
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.painel::-webkit-scrollbar { 
+    display: none;
+  }
+.container .painel table tr th,
+.container .painel table tr td {
+    padding: 5px 2px;
+    border: 1px solid #DDD;
+    color: #333;
+    text-align: center;
+}
+
+.container .painel table thead tr th {
+    background: rgba(46, 141, 230, 0.8);
+    color: #FFF;
+}
+
+.container .painel table thead tr th i {
+    margin: 0px 5px 0px 0px;
+}
+
+.container .painel table tr td .linkMapa {    
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.container .painel table tr td .linkMapa i {
+    color: red;
+}

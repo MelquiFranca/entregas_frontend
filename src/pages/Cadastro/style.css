@@ -1,0 +1,38 @@
+.formInput {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 0px;
+    padding: 10px;
+    min-width: 500px;
+    flex: 1;
+}
+.formInput input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #DDD;
+    width: 100%;
+}
+.formInput label {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.formulario {
+    flex: 4;    
+}
+.formulario .btnSalvar {
+    display: flex;
+    font-size: 18px;
+    color: #FFF;
+    background: rgba(46, 141, 230, 0.8);
+    border: none;
+    padding: 8px;    
+    align-items: center;
+}
+
+.formulario .btnSalvar i {
+    font-size: 25px;
+    margin: 0px 10px 0px 0px;
+}

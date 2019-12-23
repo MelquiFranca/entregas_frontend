@@ -1,0 +1,14 @@
+.botaoVoltar {
+    display: flex;
+    font-size: 18px;
+    color: #FFF;
+    background: rgb(255, 83, 83);    
+    text-decoration: none;   
+    padding: 8px;
+    cursor: pointer;
+}
+
+.botaoVoltar i {
+    font-size: 25px;
+    margin: 0px 10px 0px 0px;
+}
